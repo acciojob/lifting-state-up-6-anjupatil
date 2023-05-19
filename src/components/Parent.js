@@ -13,7 +13,7 @@ const Parent=()=>{
     const completeTodo=(id)=>{
         const updatedTodods=todos.map(todo=>{
             if(todo.id==id){
-                return {...todo,completed:!todo.completed};
+                return {...todo,completed:"completed"};
             }
             return todo;
         });
